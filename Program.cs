@@ -72,7 +72,7 @@ snippets/go.json	.json	Modified	26	6";
                 for (int i = 0; i < records.Count; i++)
                 {
                     var row = secondRow.CloneNode(true) as TableRow;
-                    SetCell(row, 0, String.Format("{0:D2}", i));
+                    SetCell(row, 0, String.Format("{0:D2}", i+1));
                     SetCell(row, 1, Path.GetFileName(records[i].File));
                     SetCell(row, 2, Path.GetDirectoryName(records[i].File));
                     SetCell(row, 3, GetActionCode(records[i].Action));

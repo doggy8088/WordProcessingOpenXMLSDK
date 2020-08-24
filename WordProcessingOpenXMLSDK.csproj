@@ -7,6 +7,13 @@
 
   <ItemGroup>
     <PackageReference Include="DocumentFormat.OpenXml" Version="2.11.3" />
+    <PackageReference Include="TextCopy" Version="4.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="程式異動申請清單.tpl.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
